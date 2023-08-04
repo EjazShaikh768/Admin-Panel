@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+}
+
+.cards {
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2) ;
+    height: 250px;
+    text-align: center;
+    justify-content: center; 
+    margin-top: 10%;
+    /* transform: rotate(-25deg); */
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid maroon;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 13%;
+    margin: 13% 27%;
+    background-color: rgb(82, 154, 154);
+    color: #fff;
+}
+/* .cards:hover .circle{
+    background:linear-gradient(to top,#f8e9e9,#c19393);
+    color: #000;
+}  */
+/* .cards:hover {
+    
+    transform: rotate(20deg);
+    transition: all 1s ease-in;
+}  */
+.Signincard {
+    box-shadow: 2px 2px 2px 2px #c58686;
+    margin-top: 7%;
+    padding: 50px;
+}
+.Signincard .btn {
+    background: linear-gradient(to top , #5b5757,#dda5a5);
+    color: #fff;
+    font-weight: 700;
+font-size: 1.2em;
+border-style: none;
+}
+.Signincard h1{
+    font-size: 35px;
+    margin: 20px 0;
+}
+.Signincard .btn:hover{
+    padding-top: 4px;
+    transition: all  ease-in;
+}
+.Signincard label {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.Signincard input {
+    border-style: none;
+}
+footer {
+    position: relative;
+    background: #ddd;
+}
+.bottomLine{
+    background: linear-gradient(to right ,#5b5757,#dda5a5);
+    height: 15px;
+    width: 60%;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+.btn-submit{
+    background: linear-gradient(to right, #5b5757,#951d1d);
+    color: #fff;
+    margin: 15px 0;
+    padding: 10px 25px;
+}
+.offcanvas-body ul li {
+    list-style: none;
+}
+#offcanvasRight h5 a{
+text-decoration: none;
+color: #000;
+font-size: 25px;
+}
+.offcanvas-body ul li a{
+color: #000;
+text-decoration: none;
+font-size: 20px;
+}
